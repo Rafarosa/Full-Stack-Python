@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>HTML - Rafael_Rosa Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            background-image: url("https://i.stack.imgur.com/NEuip.jpg");
+            background-repeat: no-repeat;
+            background-size: auto ;
+            background-position: center;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            background: #ccc;
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: rgb(128, 7, 7);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Fullstack Python: Curso Front-end - HTML - EBCA</h2>
+    </header>
+
+    <section>
+
+        <nav>
+            <h3>Aulas</h3>
+            <ul>
+                <li><a href="../Rafael_Rosa/html/01-introducao.html">Introdução</a></li>
+                <li><a href="../Rafael_Rosa/html/02-listas-e-links.html">Listas e Links</a></li>
+                <li><a href="../Rafael_Rosa/html/03-formatacao-de-texto.html">Formatação de Texto</a></li>
+                <li><a href="../Rafael_Rosa/html/04-tabelas.html">Tabelas</a></li>
+                <li><a href="../Rafael_Rosa/html/05-layouts.html">Layouts</a></li>
+                <li><a href="../Rafael_Rosa/html/06-formularios.html">Formulários</a></li>
+            </ul>
+
+            <h3>Redes Sociais</h3>
+
+            <a href="mailto:rodrigues.rafaelantonio@gmail.com"><img
+                    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                    target="_blank"></a>
+            <a href="https://www.linkedin.com/in/rafael-arr/" target="_blank"><img
+                    src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                    target="_blank"></a>
+            <a href="https://www.instagram.com/rafarosaoffi/" target="_blank"><img
+                    src="https://img.shields.io/badge/-Instagram-%23E1306C?style=for-the-badge&logo=instagram&logoColor=white"
+                    target="_blank"></a>
+            <a href="https://github.com/Rafarosa" target="_blank"><img
+                    src="https://img.shields.io/badge/-GitHub-%23FFCD00?style=for-the-badge&logo=github&logoColor=white"
+                    target="_blank"></a>
+        </nav>
+
+        <article>
+
+            <img width="200"
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQFaZZDeTDaSTA/profile-displayphoto-shrink_200_200/0/1589505272716?e=1660176000&v=beta&t=44KIlcFlV16YEKiuqMhMejOGvS9lxqRTcZH3YdeoYT4"
+                height="200" alt="Rafael A.R da Rosa">
+
+            <h2>Rafael Antonio Rodrigues da Rosa</h2>
+
+            <p>Suport Software Analist at: <strong>Dock tech</strong> </p>
+
+
+        </article>
+
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Rafael A.R da Rosa</p>
+    </footer>
+
+</body>
+
+</html>
