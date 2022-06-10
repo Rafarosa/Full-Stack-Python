@@ -27,7 +27,14 @@ nav {
     width: 30%;
     padding: 20px;
 }
+nav ul a{
+    text-decoration: none;
+}
 
+#primeiro_link a{
+    background-color: #f1f1f1;
+    color: red;
+} 
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
